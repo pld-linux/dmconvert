@@ -11,7 +11,7 @@ Source0:	http://www.saout.de/misc/dm-crypt/%{name}-%{version}.tar.bz2
 URL:		http://www.saout.de/misc/dm-crypt/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	device-mapper-devel
+BuildRequires:	device-mapper-devel >= 1.01.01
 BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
