@@ -12,6 +12,7 @@ URL:		http://www.saout.de/misc/dm-crypt/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	device-mapper-devel >= 1.01.01
+BuildRequires:	gettext-devel
 BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
