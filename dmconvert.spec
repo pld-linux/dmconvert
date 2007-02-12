@@ -1,5 +1,5 @@
 Summary:	dmconvert converts unencrypted filesystem to an encrypted one
-Summary(pl):	Narzêdzie do konwersji nieszyfrowanego systemu plików na szyfrowany
+Summary(pl.UTF-8):   NarzÄ™dzie do konwersji nieszyfrowanego systemu plikÃ³w na szyfrowany
 Name:		dmconvert
 Version:	0.2
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 dmconvert converts unencrypted filesystem to an encrypted one using
 device-mapper. It can work on mounted device.
 
-%description -l pl
-Narzêdzie do konwersji nieszyfrowanego systemu plików na szyfrowany.
-U¿ywa device-mappera i mo¿e pracowaæ na zamontowanym urz±dzeniu.
+%description -l pl.UTF-8
+NarzÄ™dzie do konwersji nieszyfrowanego systemu plikÃ³w na szyfrowany.
+UÅ¼ywa device-mappera i moÅ¼e pracowaÄ‡ na zamontowanym urzÄ…dzeniu.
 
 %prep
 %setup -q
