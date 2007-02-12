@@ -1,5 +1,5 @@
 Summary:	dmconvert converts unencrypted filesystem to an encrypted one
-Summary(pl.UTF-8):   Narzędzie do konwersji nieszyfrowanego systemu plików na szyfrowany
+Summary(pl.UTF-8):	Narzędzie do konwersji nieszyfrowanego systemu plików na szyfrowany
 Name:		dmconvert
 Version:	0.2
 Release:	1
