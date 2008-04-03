@@ -2,7 +2,7 @@ Summary:	dmconvert converts unencrypted filesystem to an encrypted one
 Summary(pl.UTF-8):	Narzędzie do konwersji nieszyfrowanego systemu plików na szyfrowany
 Name:		dmconvert
 Version:	0.2
-Release:	2
+Release:	3
 Epoch:		0
 License:	GPL v2
 Group:		Applications/System
@@ -38,6 +38,7 @@ Używa device-mappera i może pracować na zamontowanym urządzeniu.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
+	MKINSTALLDIRS='/usr/share/automake/mkinstalldirs' \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %find_lang %{name}
